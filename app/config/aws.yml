@@ -1,0 +1,6 @@
+s3:
+  access_key_id: 'AKIAJR5DLUU3KGLC5WSA'
+  secret_access_key_id: 'NvBbt1YPdyj+k76u4LA9itIUQpAfmtA9IR6XXnvE'
+  region: 'us-west-2' #オレゴン
+  bucket: 'dlearn-ai'
+  image_directory: 'finance/japan/image/'

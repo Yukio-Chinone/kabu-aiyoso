@@ -1,0 +1,32 @@
+.container {
+  /* 全体の幅 */
+  max-width: 960px;
+}
+
+.lh-condensed {
+  /* 右メニューの文字高さ */
+  line-height: 1.25;
+}
+
+/*** 追加CSS ***/
+.w-49 {
+  width: 49% !important;
+}
+
+.outer-frame{
+  padding: 0.3rem 1.25rem;
+  border:none;
+  border-right: solid 1px #dfdfdf !important;
+  border-left: solid 1px #dfdfdf !important;
+}
+
+.outer-frame:first-child {
+  padding-top: 0.75rem;
+  border-top: solid 1px #dfdfdf !important;
+}
+
+.outer-frame:last-child {
+  padding-bottom: 0.75rem;
+  border-bottom: solid 1px #dfdfdf !important;
+}
+

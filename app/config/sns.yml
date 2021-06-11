@@ -1,0 +1,5 @@
+facebook:
+  app_id: '235546000729865'
+  app_secret: '94444d9ba76164632c2de1f37bc0e84c'
+  default_graph_version: 'v3.2'
+  callback_url: 'https://kabu.aiyoso.com/user/callback/facebook'

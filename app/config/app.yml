@@ -1,0 +1,10 @@
+prd:
+  log_file: '../logs/app.log' # appフォルダからの相対パス
+  log_levels: # 書き込み可能なログレベル
+    - 'error'
+
+local:
+  log_file: '../logs/app.log' # appフォルダからの相対パス
+  log_levels: # 書き込み可能なログレベル
+    - 'error'
+    - 'debug'

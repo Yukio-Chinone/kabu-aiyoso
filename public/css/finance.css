@@ -1,0 +1,498 @@
+.stock span {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.list-group .comment {
+    font-size: 0.9em;
+    color: gray;
+}
+
+.inddustry {
+    font-size: 0.5em !important;
+    padding: 3px;
+    border: solid 1px #EFEFEF;
+    border-radius: 6px;
+    background: #999;
+    color: #FFF;
+    font-weight: normal;
+}
+
+.predicted_ymd {
+    font-size: 0.5em;
+    font-weight: normal;
+}
+
+.search_btn_right {
+    float: right !important;
+}
+
+.search_btn_left {
+    float: left !important;
+}
+
+.btn_favourite {
+    text-align: center !important;
+}
+
+/* Bootstrapの設定色を上書き */
+a {
+    color: #112A7E !important;
+}
+
+a:hover {
+    color: #112A7E !important;
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #112A7E !important;
+    border-color: #112A7E !important;
+}
+
+.btn-primary:hover {
+    color: #fff !important;
+    background-color: #011A5E !important;
+    border-color: #011A5E !important;
+}
+
+.btn-outline-primary {
+    color: #377BB5 !important;
+    border-color: #377BB5 !important;
+}
+
+.btn-outline-primary:active,
+.btn-outline-primary:hover {
+    color: #3A7CB3 !important;
+    background-color: #FFF !important;
+    border-color: #3A7CB3 !important;
+}
+
+/* Bootstrap(デフォルト14px)から少し小さくする */
+body {
+    font-size: 90% !important;
+}
+
+form {
+    font-size: 0.9em !important;
+}
+
+button {
+    font-size: 1.2em !important;
+}
+
+p {
+    font-size: 1.0em !important;
+}
+
+p.lead {
+    font-size: 0.9em !important;
+}
+
+h1{
+    font-size: 2.5em !important;
+}
+
+h1 a:hover{
+    text-decoration: none;
+}
+
+h2.lead {
+    font-size: 0.9em !important;
+}
+
+h2.site-title a {
+    font-size: 1.2em !important;
+    color: #112A7E !important;
+}
+
+h2.site-title a:hover {
+    text-decoration: none !important;
+}
+
+h3 {
+    font-size: 1.9em !important;
+    line-height: 1em !important;
+}
+
+h4 {
+    font-size: 1.5em !important;
+    border-left: 5px solid #BBB !important;
+    color: #666 !important;
+    padding-left: 5px !important;
+}
+
+.btn-group {
+    font-size: 0.7em !important;
+}
+
+div.list ol,
+div.list ul {
+    padding-left: 20px !important;
+}
+
+div.list li {
+    margin-bottom: 0.5em;
+}
+
+table.explain th,
+table.explain td {
+    font-size: 0.9em !important;
+    padding: 0 0 0.5em;
+}
+
+table.explain th {
+    width: 32%;
+}
+
+table.explain td {
+    padding-left: 1em;
+}
+
+.footer {
+    margin-bottom: 5em;
+}
+
+input,
+textarea,
+select {
+    font-size: 16px !important;
+}
+
+b.value_up {
+    color: red !important;
+    font-size: 0.5em;
+}
+
+b.value_down {
+    color: blue !important;
+    font-size: 0.5em;
+}
+
+.float2cloumn {
+    width: 50%;
+    float: left;
+}
+
+.floatclear {
+    clear: both;
+}
+
+.floatclear hr {
+    display: none;
+}
+
+.option {
+    margin-top: 5px;
+    text-align: right;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #ccc !important;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ccc !important;
+}
+
+::placeholder { /* Others */
+    color: #ccc !important;
+}
+
+a.lh5 {
+    line-height: 5px !important;
+}
+
+a.search_tag {
+    font-size: 0.8em;
+    padding: 1px 3px;
+    border: solid 1px #CCC;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/**
+切り替えチャット
+ */
+
+.chart_area {
+    position: relative;
+}
+
+.chart_area p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 3px 15px;
+    text-align: center;
+    background: #FFF;
+    opacity: 0.5;
+    border: solid 1px #000;
+    margin: 0px;
+    color: #000;
+    font-size: 1.5em !important;
+}
+
+.chart_area img {
+    width: 100%;
+}
+
+.day_buttons {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.check_point img {
+    width: 30px;
+}
+
+.short_message {
+    border:solid 1px orange;
+    padding:5px;
+    margin-top:5px;
+    margin:5px;
+}
+
+.short_message_title {
+    font-weight:bold;
+    color:red;
+}
+
+.day_buttons .btn {
+    font-size:0.5em !important;
+    padding:1px 5px;
+    margin:0px;
+    border: solid 1px #333 !important;
+    background:#EFEFEF !important;
+}
+
+#rankinglist table{
+    border-collapse: collapse;
+}
+
+#rankinglist td, #rankinglist th{
+    border-collapse: collapse;
+    border:solid 1px #999;
+    padding:5px;
+}
+
+#rankinglist th{
+    background:#EFEFEF;
+}
+
+#legal table{
+    border-collapse: collapse;
+}
+
+#legal td, #legal th{
+    border-collapse: collapse;
+    border:solid 1px #999;
+    padding:5px;
+    vertical-align: middle!important;
+}
+
+#legal th{
+    background:#EFEFEF;
+}
+
+img.trim_chart{
+    /*width: 100%;*/
+    /*height: 350px;*/
+    /*object-fit: cover;*/
+}
+
+a.kabu_banner {
+    font-size:1.2em;
+    font-weight: bold;
+    display:block;
+    width:100%;
+    border:solid 1px #999;
+    padding:10px;
+    margin-bottom:20px;
+    background:#FFF;
+}
+
+a.kabu_big_banner {
+    font-size:1.3em;
+    font-weight: bold;
+    display:block;
+    width:100%;
+    border:solid 2px #CCC;
+    padding:5px;
+    margin:0px 0px 20px;
+    background:#005cbf;
+    color:#FFF !important;
+    text-align: center;
+}
+
+.hazure {
+    font-size: 0.8em !important;
+    margin:5px 0px;
+    word-wrap: break-word;
+}
+
+.hazure b {
+    font-weight: normal;
+    color: gray;
+}
+
+.hazure span {
+    padding-right:6px;
+}
+
+.hazure span.ok {
+    color:black;
+}
+
+.hazure span.ng {
+    color:red;
+}
+
+.today_chart{
+    font-weight: bold;
+    font-size:1.5em;
+}
+
+#sale div.explain h3{
+    padding-top:50px;
+}
+
+#sale div.explain p{
+    line-height: 1.5em;
+}
+
+#sale div.explain img{
+    float:left;
+    margin-right:10px;
+    border:solid 1px #CCC;
+}
+
+#sale div.explain div.clear{
+    clear:both;
+}
+
+#sale div.explain div.clear hr{
+    display:none;
+}
+
+.arrow{
+    margin:10px 0 10px 30%;
+    border:none !important;
+}
+
+.red{
+    color:red;
+}
+
+.entry{
+    text-align:center;
+}
+
+.entry p{
+    font-weight:bold;
+    font-size:2em !important;
+    color:red;
+}
+
+.entry ul{
+    border:solid 1px #CCC;
+    text-align:left;
+    margin:10px 0px;
+    padding:10px 30px;
+}
+
+.bg_y{
+    background:yellow;
+}
+
+.scroll {
+    border: solid 1px #CCC;
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: scroll;
+}
+
+.logo{
+    width:40px;
+    padding-bottom:6px;
+}
+
+.login-form{
+    margin-bottom:5px;
+}
+
+.login-submit{
+    width:100%;
+}
+
+.center{
+    text-align: center;
+}
+
+.mb40{
+    margin-bottom:40px;
+}
+
+a#register{
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height:30px;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color:#00aa88;
+    color:#FFF !important;
+    margin-bottom:30px;
+}
+
+a#register:hover{
+    background-color:#009988;
+}
+
+.tab a {
+    padding:3px 20px;
+    display:block;
+    float:left;
+    margin-left:5px;
+    background:#EFEFEF;
+}
+
+.tab a.active{
+    color:#FFF !important;
+    background:#112A7E;
+}
+
+.tab_bottom {
+    margin-bottom:20px;
+    border-bottom:solid 2px #112A7E;
+}
+
+table.result{
+    font-size:12px;
+}
+
+.result th, .result td{
+    border:1px #CCC;
+    border: solid 1px #CCC;
+    padding:2px;
+}
+
+.result th{
+    text-align:center;
+    background:#EFEFEF;
+}
+
+.result td{
+    text-align: right;
+}
+
+.result td.stock{
+    text-align:left;
+}

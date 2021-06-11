@@ -1,0 +1,11 @@
+prd:
+  host: '10.0.0.231'
+  username: 'root'
+  password: 'q/7XV4NA'
+  dbname: 'finance'
+
+local:
+  host: 'finance_db'
+  username: 'root'
+  password: 'q8b5v3dh'
+  dbname: 'finance'
